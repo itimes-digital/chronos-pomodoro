@@ -8,9 +8,9 @@ export function App() {
   return (
     <>
       <>
-        <Heading></Heading>
+        <Heading>Olá mundo por componente</Heading>
+        <Heading>Olá mundo por componente 2</Heading>
       </>
-      <h1>Olá mundo novamente</h1>
       <p>Outras informações</p>
     </>
   );
