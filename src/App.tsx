@@ -1,6 +1,7 @@
 import "./styles/theme.css";
 import "./styles/global.css";
 import { Heading } from "./components/Heading";
+import { TimerIcon } from "lucide-react";
 
 export function App() {
   console.info(1);
@@ -8,8 +9,12 @@ export function App() {
   return (
     <>
       <>
-        <Heading>Olá mundo por componente</Heading>
-        <Heading>Olá mundo por componente 2</Heading>
+        <Heading>
+          Olá mundo por componente
+          <button>
+            <TimerIcon />
+          </button>
+        </Heading>
       </>
       <p>Outras informações</p>
     </>
